@@ -1,3 +1,7 @@
+#enlaces
+https://getbootstrap.com/docs/5.0/components/badge/
+Todo respecto boostrap
+
 # notes bootstrap
 
 para dar inicio a boostrap es necesario agregar:
