@@ -21,6 +21,10 @@ Revisar :
 alt+shift  : option + shift --> mac
 repite codigo completo lineas in vs code
 
+comentar y descomentar
+ctrl+k
+ctrl+u ctrl+c
+
 
 
 #glosary
