@@ -18,6 +18,8 @@ para dar inicio a boostrap es necesario agregar:
 ctrl+shift+p
 Revisar :
 (li>a.dropdown-item)*3
+alt+shift  : option + shift --> mac
+repite codigo completo lineas in vs code
 
 
 
