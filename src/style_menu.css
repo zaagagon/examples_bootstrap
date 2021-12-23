@@ -27,11 +27,17 @@ body {
     display: inline-block;
 }
 
-.menu >li a{
+.menu >li >a{
     display: block;
 
     padding: 15px 20px; /*rellenamos*/
     font-family:sans-serif;
     text-decoration: none;/*quitamos el subrayado */
+
+}
+/* cambios en los li y los a */
+/* creamos hover */
+.menu li a :hover {
+    color:aqua;
 
 }
