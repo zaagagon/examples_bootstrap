@@ -14,11 +14,24 @@ body {
 
 .navegacion {
     margin: 30px auto;
-    width: 300px;
+    width: 500px;
     background: #fff;
 
 }
 /* quitamos viñetas de la lista */
 .navegacion ul{
     list-style: none;
+}
+/* opciones menu al lado */
+.menu > li{
+    display: inline-block;
+}
+
+.menu >li a{
+    display: block;
+
+    padding: 15px 20px; /*rellenamos*/
+    font-family:sans-serif;
+    text-decoration: none;/*quitamos el subrayado */
+
 }
