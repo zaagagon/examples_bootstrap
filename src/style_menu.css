@@ -39,5 +39,6 @@ body {
 /* creamos hover */
 .menu li a :hover {
     color:aqua;
+    transition: all .3s;
 
 }
