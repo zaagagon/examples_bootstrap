@@ -43,7 +43,7 @@ body {
 
 }
 /* submenu */
-.submenu{
+.submenu_js{
     position: absolute;
     background: #333333;
     width: 120%;
@@ -54,7 +54,7 @@ body {
 
 } 
 
-.submenu li a{
+.submenu_js li a{
     display: block;
     padding : 15px;
     color : #fff;
@@ -62,7 +62,7 @@ body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
 }
- .menu li:hover .submenu{
+ .menu li:hover .submenu_js{
      visibility: visible;
      opacity: 1;
  }
