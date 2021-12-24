@@ -45,7 +45,7 @@ body {
 /* submenu */
 .submenu_js{
     position: absolute;
-    background: #333333;
+    background:#fff;
     width: 120%;
     visibility: hidden;
     opacity: 0;
