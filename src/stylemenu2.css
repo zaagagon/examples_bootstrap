@@ -31,3 +31,12 @@
     margin:0;
     padding:0;
    }
+   /* efecto al pasar el ratón por los items del menu */
+
+#menu ul li:hover {
+    background:#5b78a7;
+   }
+
+   /*
+   falta todo el menu desplegable*/
+   
