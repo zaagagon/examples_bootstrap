@@ -43,7 +43,7 @@
    /* menu desplegable */
 
 #menu ul ul {
-    display:none;
+    display:none;/* oculta el submenu de clientes */
     position:absolute;
     top:100%;
     left:0;
