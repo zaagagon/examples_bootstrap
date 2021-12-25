@@ -66,7 +66,12 @@
    }
    
    /* items del menu desplegable al pasar el ratón */
-   
+    /* #menu ul li:hover > ul {
+    display:block;
+   }  */
+
+   /* despliega e submenu clientes al pasar el raton */
+
    #menu ul li:hover > ul {
     display:block;
-   }
+   } 
