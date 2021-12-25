@@ -22,3 +22,12 @@
     text-transform:uppercase;
     letter-spacing:1px;
 }
+
+/* items del menu again */
+
+#menu ul li {
+    position:relative;
+    float:left;
+    margin:0;
+    padding:0;
+   }
