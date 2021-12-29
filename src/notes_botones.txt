@@ -1,2 +1,9 @@
 tips
+
+
+#botones 
+existen 9 tipos de botones para ser usados con sus clases
+btn btn-primary : azul
+#boostrap
+se deben copiar minimo dos lineas de boostrap
 podemos copiar en vs con solo ubicarnos en la linea
