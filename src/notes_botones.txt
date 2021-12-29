@@ -1,7 +1,7 @@
 tips
 
 
-#botones  :primary-secundary-succes-warning-info-li
+#botones  : 1.primary- 2. secundary- 3. succes- 4.warning- 5.info-6.light-7. dark-link
 existen 9 tipos de botones para ser usados con sus clases
 btn btn-primary : azul
 btn btn-secundary : gris
