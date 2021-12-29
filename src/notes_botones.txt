@@ -1,10 +1,11 @@
 tips
 
 
-#botones 
+#botones  :primary-secundary-succes-warning-info-li
 existen 9 tipos de botones para ser usados con sus clases
 btn btn-primary : azul
 btn btn-secundary : gris
+btn bton-
 #boostrap
 se deben copiar minimo dos lineas de boostrap
 podemos copiar en vs con solo ubicarnos en la linea
