@@ -5,6 +5,10 @@ tips
 existen 9 tipos de botones para ser usados con sus clases
 btn btn-primary : azul
 btn btn-secundary : gris
+: blanco
+: negro
+:verde
+:rojo
 btn bton-
 #boostrap
 se deben copiar minimo dos lineas de boostrap
