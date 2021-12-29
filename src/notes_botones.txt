@@ -1,0 +1,2 @@
+tips
+podemos copiar en vs con solo ubicarnos en la linea
