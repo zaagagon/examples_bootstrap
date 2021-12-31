@@ -4,3 +4,4 @@ ctrl +b : controla ventana de archivos
 
 #extensiones vs
 instalacion de dos 
+bs y !
