@@ -1,3 +1,6 @@
 #atajos vs
 ctrl +j : oculta y aparece ventana de consola
 ctrl +b : controla ventana de archivos
+
+#extensiones vs
+instalacion de dos 
