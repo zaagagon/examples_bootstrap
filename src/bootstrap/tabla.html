@@ -49,40 +49,53 @@
   <td class="table-light">...</td>
   <td class="table-dark">...</td>
 </tr>
-<hr>
+
+<div class="container">
+
+    <hr>
 <h1 class="text-danger"> Ejemplo de tabla de nombres</h1>
 <hr>
+</div>
+
+
+<div class="container">
+
+    <!-- la tabla cambio totalmente a ser ubicada en el div contenedor -->
+
+    <table class="table table-bordered border-secondary table-striped table-hover">
+        <!-- color al encabezado de la tabla -->
+        <caption>lista de usuarios</caption>
+        <thead class="table-success">
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col"> <strong>Nombre</strong></th>
+                <th scope="col"><strong>Apellido</strong></th>
+            </tr>
+        </thead>
+        <!-- fin color verde -->
+        <!-- podemos poner hover a la table -->
+        <tbody>
+            <tr>
+                <th scope="row">1</th>
+                <td>alejandro</td>
+                <td>murillo</td>
+            </tr>
+            <tr>
+                <th scope="row">2</th>
+                <td>gloria</td>
+                <td>londoño</td>
+            </tr>
+            <tr>
+                <th scope="row">3</th>
+                <td>Maria</td>
+                <td>alzate</td>
+            </tr>
+        </tbody>
+      </table>
+
+</div>
 <!-- color al borde de la tabla  -->
 <!-- configuremos hover al pasar el mouse por la table -->
-<table class="table table-bordered border-secondary table-striped table-hover table-center">
-    <!-- color al encabezado de la tabla -->
-    <caption>lista de usuarios</caption>
-    <thead class="table-success">
-        <tr>
-            <th scope="col">#</th>
-            <th scope="col"> <strong>Nombre</strong></th>
-            <th scope="col"><strong>Apellido</strong></th>
-        </tr>
-    </thead>
-    <!-- fin color verde -->
-    <!-- podemos poner hover a la table -->
-    <tbody>
-        <tr>
-            <th scope="row">1</th>
-            <td>alejandro</td>
-            <td>murillo</td>
-        </tr>
-        <tr>
-            <th scope="row">2</th>
-            <td>gloria</td>
-            <td>londoño</td>
-        </tr>
-        <tr>
-            <th scope="row">3</th>
-            <td>Maria</td>
-            <td>alzate</td>
-        </tr>
-    </tbody>
-  </table>
+
 </body>
 </html>
