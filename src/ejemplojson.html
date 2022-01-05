@@ -18,23 +18,30 @@
 
     <div>
         <h1 class="text-success">Ejemplo de json en tabla</h1>
+
+        <h1 class="text text-success text-center ">
+           Programacion ZAG
+            </h1>
     </div>
     
-<div id="datosPersona">
+<div class="container" id="datosPersona">
 
-<table class="table-success" id="Table"></table>
+<table class=" table-striped table-success" id="Table">
+    <thead class="table-success"></thead>
+</table>
 </div>
 
 <script>
 
 var json = {"alumnoUTP":[{"nombre":"Ricardo","apePaterno":"Carpio","edad":39},{"nombre":"Thiago","apePaterno":"Carpio","edad":5},{"nombre":"José","apePaterno":"Carpio","edad":74}]};
 
+
 function cargarDatos(){
     var DatosJson = JSON.parse(JSON.stringify(json));
     console.log(DatosJson.alumnoUTP.length);
-    $("#Table").append('<tr><td>Nombre</td>'+
-    '<td>Apellido paterno</td>' + 
-    '<td>Edad</td>');
+    $("#Table").append('<tr class="table-striped border-success"><td class="text-primary">Nombre</td>'+
+    '<td><strong>Apellido paterno</strong></td>' + 
+    '<td><strong>Edad</strong></td>');
     for (i = 0; i < DatosJson.alumnoUTP.length; i++){
 
  $("#Table").append('<tr>' + 
@@ -45,6 +52,7 @@ function cargarDatos(){
 }
 
 </script>
+<!-- boton que llena tabla -->
 <button  class="btn btn-primary" type="button" onclick="cargarDatos()">
 Visualizar Json
 </button>
