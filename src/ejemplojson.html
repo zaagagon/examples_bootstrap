@@ -1,10 +1,28 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Site</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+</head>
+<body>
+<h1>Hello-Bootstrap</h1>
+
+
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 <title>Obteniendo Json</title>
-<body>
+
+    <div>
+        <h1 class="text-success">Ejemplo de json en tabla</h1>
+    </div>
+    
 <div id="datosPersona">
 
-<table id="Table"></table>
+<table class="table-success" id="Table"></table>
 </div>
 
 <script>
@@ -27,42 +45,10 @@ function cargarDatos(){
 }
 
 </script>
-<button type="button" onclick="cargarDatos()">
-Visualizar
+<button  class="btn btn-primary" type="button" onclick="cargarDatos()">
+Visualizar Json
 </button>
-</body>
-</html>
-<html>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-<title>Obteniendo Json</title>
-<body>
-<div id="datosPersona">
 
-<table id="Table"></table>
-</div>
 
-<script>
-
-var json = {"alumnoUTP":[{"nombre":"Ricardo","apePaterno":"Carpio","edad":39},{"nombre":"Thiago","apePaterno":"Carpio","edad":5},{"nombre":"José","apePaterno":"Carpio","edad":74}]};
-
-function cargarDatos(){
-    var DatosJson = JSON.parse(JSON.stringify(json));
-    console.log(DatosJson.alumnoUTP.length);
-    $("#Table").append('<tr><td>Nombre</td>'+
- 	'<td>Apellido paterno</td>' + 
- 	'<td>Edad</td>');
-    for (i = 0; i < DatosJson.alumnoUTP.length; i++){
- 
- $("#Table").append('<tr>' + 
- 	'<td align="center" style="dislay: none;">' + DatosJson.alumnoUTP[i].nombre + '</td>'+
- 	'<td align="center" style="dislay: none;">' + DatosJson.alumnoUTP[i].apePaterno + '</td>'+
- 	'<td align="center" style="dislay: none;">' + DatosJson.alumnoUTP[i].edad + '</td>'+'</tr>');
-    }
-}
-
-</script>
-<button type="button" onclick="cargarDatos()">
-Visualizar
-</button>
 </body>
 </html>
