@@ -45,8 +45,8 @@ function cargarDatos(){
     for (i = 0; i < DatosJson.alumnoUTP.length; i++){
 
  $("#Table").append('<tr>' + 
-    '<td align="center" style="dislay: none;">' + DatosJson.alumnoUTP[i].nombre + '</td>'+
-    '<td align="center" style="dislay: none;">' + DatosJson.alumnoUTP[i].apePaterno + '</td>'+
+    '<td  class="text-primary" align="center" style="dislay: none;">' + DatosJson.alumnoUTP[i].nombre + '</td>'+
+    '<td class="text-success" "align="center" style="dislay: none;">' + DatosJson.alumnoUTP[i].apePaterno + '</td>'+
     '<td align="center" style="dislay: none;">' + DatosJson.alumnoUTP[i].edad + '</td>'+'</tr>');
     }
 }
