@@ -39,7 +39,7 @@ var json = {"alumnoUTP":[{"nombre":"Ricardo","apePaterno":"Carpio","edad":39},{"
 function cargarDatos(){
     var DatosJson = JSON.parse(JSON.stringify(json));
     console.log(DatosJson.alumnoUTP.length);
-    $("#Table").append('<tr class="table-striped border-success"><td class="text-primary">Nombre</td>'+
+    $("#Table").append('<tr class="table-striped border-success"><td class="text-danger"><strong>Nombre</strong></td>'+
     '<td><strong>Apellido paterno</strong></td>' + 
     '<td><strong>Edad</strong></td>');
     for (i = 0; i < DatosJson.alumnoUTP.length; i++){
