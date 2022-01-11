@@ -1,9 +1,9 @@
 <?php
 $db_host="localhost";
-$db_user="nombre_de_usuario";
-$db_password="contraseña";
-$db_name="nombre_de_base_de_datos";
-$db_table_name="nombre_de_tabla";
+$db_user="zag";
+$db_password="123456";
+$db_name="registro";
+$db_table_name="usuarios";
    $db_connection = mysql_connect($db_host, $db_user, $db_password);
 
 if (!$db_connection) {
