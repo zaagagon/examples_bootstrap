@@ -4,7 +4,8 @@ $db_user="zag";
 $db_password="123456789";
 $db_name="registro";
 $db_table_name="usuarios";
-   $db_connection = mysql_connect($db_host, $db_user, $db_password);
+  // $db_connection = mysql_connect($db_host, $db_user, $db_password);
+  $db_connection = mysqli_connect($db_host, $db_user, $db_password);
 
 if (!$db_connection) {
 	die('No se ha podido conectar a la base de datos');
@@ -13,7 +14,13 @@ $subs_name = utf8_decode($_POST['nombre']);
 $subs_last = utf8_decode($_POST['apellido']);
 $subs_email = utf8_decode($_POST['email']);
 
-$resultado=mysql_query("SELECT * FROM ".$db_table_name." WHERE Email = '".$subs_email."'", $db_connection);
+/*$res = $mysqli->query("SELECT * FROM personas");
+
+while($f = $res->fetch_object()){
+    echo $f->nombre.' <br/>';
+}*/
+//$resultado=mysql_query("SELECT * FROM ".$db_table_name." WHERE Email = '".$subs_email."'", $db_connection);
+$resultado=$mysqli->query("SELECT * FROM ".$db_table_name." WHERE Email = '".$subs_email."'", $db_connection);
 
 if (mysql_num_rows($resultado)>0)
 {
