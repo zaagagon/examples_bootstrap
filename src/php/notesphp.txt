@@ -1,0 +1,6 @@
+ <!-- estructura php <?php  ?> -->
+
+ <?php
+ ?>
+
+ estructura de php dentro del html
