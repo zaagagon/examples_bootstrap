@@ -1,7 +1,7 @@
 <?php
 $db_host="localhost";
 $db_user="zag";
-$db_password="123456";
+$db_password="123456789";
 $db_name="registro";
 $db_table_name="usuarios";
    $db_connection = mysql_connect($db_host, $db_user, $db_password);
