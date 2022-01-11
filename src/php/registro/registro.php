@@ -1,5 +1,5 @@
 <?php
-$db_host="localhost";
+$db_host="127.0.0.1";
 $db_user="zag";
 $db_password="123456789";
 $db_name="registro";
