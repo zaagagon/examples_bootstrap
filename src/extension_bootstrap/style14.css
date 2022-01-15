@@ -9,13 +9,13 @@ h1 {
 /**/
 p {
     /*Propiedad separador(:) valor ; separador*/
-    color: brown;
+    color: brown; /* este selector contiene 3 reglas*/
     font-size: medium;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 /**/
 h2 {
-    color:#0000ff;
+    color:#0000ff; /*regla por lieena*/
 }
 body{
     background-color: blanchedalmond;
