@@ -1,3 +1,8 @@
 h1 {
     color: blue;
 }
+p {
+    color: brown;
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
