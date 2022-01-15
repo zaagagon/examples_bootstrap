@@ -17,7 +17,7 @@ p {
 h2 {
     color:#0000ff; /*Declaracion 1*/
     font-size: 20px;/*Declaracion 2*/
-    font-family: verdana;
+    font-family: verdana;/*declaracion 3*/
 }
 body{
     background-color: blanchedalmond;
