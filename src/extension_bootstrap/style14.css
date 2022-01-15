@@ -1,10 +1,13 @@
 /*selector : h1
 declaracion {}
 */
-
-h1 {
+/*tag h1 con id header*/
+#header {
     color: blue;
     background-color: rgb(245, 242, 239);
+    text-align: center;
+    
+    
 }
 /**/
 p {
