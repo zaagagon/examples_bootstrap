@@ -1,8 +1,10 @@
 /*selector : h1
 declaracion {}
 */
+
 h1 {
     color: blue;
+    background-color: rgb(245, 242, 239);
 }
 /**/
 p {
@@ -14,4 +16,7 @@ p {
 /**/
 h2 {
     color:#0000ff;
+}
+body{
+    background-color: blanchedalmond;
 }
