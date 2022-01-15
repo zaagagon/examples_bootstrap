@@ -4,7 +4,9 @@ declaracion {}
 h1 {
     color: blue;
 }
+/**/
 p {
+    /*Propiedad separador(:) valor ; separador*/
     color: brown;
     font-size: medium;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
