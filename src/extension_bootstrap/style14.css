@@ -32,6 +32,7 @@ hr{
     height: 6px;
 }
 img {
+    text-align: center;
     /* aqui declaraciones de img */
     /* ubicar img centrada y con bordes redondeados */
 }
