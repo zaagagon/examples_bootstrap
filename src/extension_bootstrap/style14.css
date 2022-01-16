@@ -27,9 +27,10 @@ h2 {
 body{
     background-color: blanchedalmond;
 }
-hr{
+#html5 {
     color: brown; /*color al hr linea*/
     height: 6px;
+    width: 6px;
 }
 img {
     text-align: center;
