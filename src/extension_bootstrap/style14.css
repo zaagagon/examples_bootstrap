@@ -3,7 +3,7 @@ declaracion {}
 */
 /*tag h1 con id header*/
 #header {
-    color: blue;
+    color:chartreuse;
     background-color: rgb(245, 242, 239);
     text-align: center;
     
@@ -32,13 +32,14 @@ body{
     height: 6px;
     width: 6px;
 }
-.image{
+#image{
     text-align: center;
 
     /* aqui declaraciones de img */
     /* ubicar img centrada y con bordes redondeados */
-    border: 2px;
+ border-image: auto;
     padding: 10px;
-    width: auto;
-    height: auto;
+    width: 50%;
+    height: 50%;
+    border:2px solid blue;
 }
