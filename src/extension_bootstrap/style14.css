@@ -37,4 +37,6 @@ img {
     border-color: brown;
     /* aqui declaraciones de img */
     /* ubicar img centrada y con bordes redondeados */
+    border: 2px;
+    padding: 10px;
 }
