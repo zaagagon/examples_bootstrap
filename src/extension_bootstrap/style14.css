@@ -32,7 +32,10 @@ P {color:red;
    font-size: larger;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-
+#parrafo1{
+    color: red;
+    text-decoration: underline;
+}
 /**/
 h2 {
     color:darkgreen; /*Declaracion 1 color texto?*/
