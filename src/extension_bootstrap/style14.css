@@ -32,9 +32,11 @@ P {color:red;
    font-size: larger;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+/*id creado en tag p*/
 #parrafo1{
     color: red;
     text-decoration: underline;
+    text-transform: capitalize;
 }
 /**/
 h2 {
