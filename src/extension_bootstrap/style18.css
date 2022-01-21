@@ -34,14 +34,14 @@ body {
 
     padding: 20px;
    } 
-
+/*barra de navegacion*/
    #menu {
     background: #CCCCCC;
     padding: 5px 15px;
    }
    #menu li {
     display: inline-block;
-    list-style: none;
+    list-style: none;/**/
     padding: 5px;
     font: bold 14px verdana, sans-serif;
    }
