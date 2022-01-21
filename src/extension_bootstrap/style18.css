@@ -45,3 +45,15 @@ body {
     padding: 5px;
     font: bold 14px verdana, sans-serif;
    }
+   #seccion {
+    float: left;
+    width: 660px;
+    margin: 20px;
+   }
+   #columna {
+    float: left;
+    width: 220px;
+    margin: 20px 0px;
+    padding: 20px;
+    background: #CCCCCC;
+   }
