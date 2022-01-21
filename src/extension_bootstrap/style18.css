@@ -1,1 +1,6 @@
 /*css sin bootstrap*/
+/*selector universal*/
+* {
+    margin: 0px;
+    padding: 0px;
+   } 
