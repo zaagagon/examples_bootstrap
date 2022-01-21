@@ -41,7 +41,7 @@ body {
    }
    #menu li {
     display: inline-block;
-    list-style: none;/**/
+    list-style: none;/* quita viñetas de lista desordenada ul*/
     padding: 5px;
     font: bold 14px verdana, sans-serif;
    }
