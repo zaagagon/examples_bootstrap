@@ -4,3 +4,11 @@
     margin: 0px;
     padding: 0px;
    } 
+
+   h1 {
+       color: darkgreen;
+    font: bold 20px verdana, sans-serif;
+   }
+   h2 {
+    font: bold 14px verdana, sans-serif;
+   }  
