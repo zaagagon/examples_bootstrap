@@ -9,3 +9,10 @@ p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: coral;
 }
+
+.texto3{
+    font-size: 25px;
+    font-family: Lucida;
+    color: darkcyan;
+    border-color: blueviolet;
+}
