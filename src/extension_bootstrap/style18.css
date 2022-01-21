@@ -17,3 +17,7 @@
 hgroup{
  display: block;
 }
+/*Centrar el cuerpo*/
+body {
+    text-align: center;
+   } 
