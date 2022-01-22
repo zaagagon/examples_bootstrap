@@ -14,6 +14,10 @@ body {
     text-align: center;
     border: 2px solid #999999;
     background: #DDDDDD;
+    /*instancia border radius para cambiar esquinas*/
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    border-radius: 20px; 
    }
    #titulo {
     font: bold 36px verdana, sans-serif;
