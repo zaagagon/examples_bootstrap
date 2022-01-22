@@ -23,6 +23,9 @@ body {
     -moz-box-shadow: rgb(150,150,150) 5px 5px;
     -webkit-box-shadow: rgb(150,150,150) 5px 5px;
      box-shadow: rgb(150,150,150) 5px 5px; 
+
+     background: -webkit-linear-gradient(top, #FFFFFF, #006699);
+     background: -moz-linear-gradient(top, #FFFFFF, #006699);
    }
    #titulo {
     font: bold 36px verdana, sans-serif;
