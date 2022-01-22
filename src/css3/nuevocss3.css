@@ -26,7 +26,7 @@ body {
     /* linear gradient */
      background: -webkit-linear-gradient(top, #FFFFFF, #006699);
      background: -moz-linear-gradient(top, #FFFFFF, #006699);
-
+        /* transition */
      -moz-transition: -moz-transform 1s ease-in-out 0.5s;
  -webkit-transition: -webkit-transform 1s ease-in-out 0.5s; 
 
