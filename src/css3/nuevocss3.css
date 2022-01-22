@@ -26,5 +26,6 @@ body {
    }
    #titulo {
     font: bold 36px verdana, sans-serif;
-    
+    /* text-shadow sombra texto */
+    text-shadow: rgb(0,0,150) 3px 3px 5px; 
    } 
