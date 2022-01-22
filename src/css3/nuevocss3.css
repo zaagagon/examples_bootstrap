@@ -18,7 +18,13 @@ body {
     -moz-border-radius: 20px;
     -webkit-border-radius: 20px;
     border-radius: 20px; 
+
+    /* box-shadow */
+    -moz-box-shadow: rgb(150,150,150) 5px 5px;
+    -webkit-box-shadow: rgb(150,150,150) 5px 5px;
+     box-shadow: rgb(150,150,150) 5px 5px; 
    }
    #titulo {
     font: bold 36px verdana, sans-serif;
+    
    } 
