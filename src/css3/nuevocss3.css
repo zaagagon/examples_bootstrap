@@ -30,6 +30,10 @@ body {
      -moz-transition: -moz-transform 1s ease-in-out 0.5s;
  -webkit-transition: -webkit-transform 1s ease-in-out 0.5s; 
 
+
+ -moz-transform: translate(100px);
+ -webkit-transform: translate(100px);
+
      outline: 2px dashed #000099;
  outline-offset: 15px; 
 
@@ -37,6 +41,8 @@ body {
  -moz-border-image: url("logo-diamond.png") 29 stretch;
  -webkit-border-image: url("logo-diamond.png") 29 stretch;
  border-image: url("logo-diamond.png") 29 stretch; 
+
+
    }
    #titulo {
     font: bold 36px verdana, sans-serif;
@@ -48,8 +54,12 @@ body {
 
     
    } 
-
+   /* al pasar el mouse */
    #principal:hover{
     -moz-transform: rotate(5deg);
-    -webkit-transform: rotate(5deg);
+    -webkit-transform: rotate(15deg);
+
+/*
+ -moz-transform: translateY(100px) rotate(45deg) scaleX(0.3);
+ -webkit-transform: translateY(100px) rotate(45deg) scaleX(0.3);*/
    } 
