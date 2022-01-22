@@ -26,6 +26,14 @@ body {
     /* linear gradient */
      background: -webkit-linear-gradient(top, #FFFFFF, #006699);
      background: -moz-linear-gradient(top, #FFFFFF, #006699);
+
+     outline: 2px dashed #000099;
+ outline-offset: 15px; 
+
+ border: 29px;
+ -moz-border-image: url("logo-diamond.png") 29 stretch;
+ -webkit-border-image: url("logo-diamond.png") 29 stretch;
+ border-image: url("logo-diamond.png") 29 stretch; 
    }
    #titulo {
     font: bold 36px verdana, sans-serif;
@@ -34,4 +42,6 @@ body {
     text-shadow: rgba(0,0,0,0.5) 3px 3px 5px; 
     /* opacidad  */
     color: hsla(120, 100%, 50%, 0.5); 
+
+    
    } 
