@@ -1,0 +1,4 @@
+
+
+Ya no es necesario incluir el atributo type en la
+etiqueta <script>. HTML5 asigna Javascript por defecto. 
