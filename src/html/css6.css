@@ -8,7 +8,32 @@ body {
     font-size: 25px;
 }
 
+#nav-menu ul {
+	font-family: sans-serif;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+#nav-menu li {
+	float: left;
+	margin: 0 0.15em;
+	border: 5px groove #FFAA33;
+}
 
+#nav-menu li a {
+	background-color: #FFC0CB;
+	height: 2em;
+	line-height: 2em;
+	float: left;
+	width: 9em;
+	display: block;
+	border: 0.1em solid #dcdce9;
+	color: #0d2474;
+	text-decoration: none;
+	text-align: center;
+}
+
+#nav-menu li a:hover{background-color: #FF6347;}
 
 .titulo {
     color: brown;
