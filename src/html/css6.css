@@ -49,3 +49,8 @@ body {
     height: 50%;
     text-align: center;
 }
+
+.aside {
+color: green;
+text-align: justify;
+}
