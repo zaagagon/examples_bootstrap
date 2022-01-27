@@ -42,3 +42,10 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     
 }
+
+.image {
+
+    width: 50%;
+    height: 50%;
+    text-align: center;
+}
