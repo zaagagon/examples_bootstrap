@@ -3,3 +3,9 @@
     color: blue;
     font-size: 25px;
 }
+
+.titulo {
+    color: brown;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
