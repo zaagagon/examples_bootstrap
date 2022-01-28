@@ -1,0 +1,11 @@
+body{
+    text-align: center;
+    background: darkgray;
+}
+
+header {
+    margin: auto;
+    width: 90%;
+    height: 50px;
+    background: cornflowerblue;
+}
