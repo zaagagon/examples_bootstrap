@@ -18,3 +18,9 @@ nav {
     background: goldenrod;
    
 }
+article {
+    margin: auto;
+    width: 90%;
+    height: 150px;
+    background: forestgreen;
+}
