@@ -20,6 +20,7 @@ nav {
 }
 article {
     margin: auto;
+    display: inline-block;
     width: 90%;
     height: 150px;
     background: forestgreen;
