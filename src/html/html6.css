@@ -9,3 +9,12 @@ header {
     height: 50px;
     background: cornflowerblue;
 }
+
+nav {
+    margin: auto;
+    margin-top: 20px;
+    width: 90%;
+    height: 50px;
+    background: goldenrod;
+   
+}
