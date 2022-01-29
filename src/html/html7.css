@@ -5,8 +5,9 @@ body {
 header{
     margin: auto;
     background: burlywood;
-    height: 80%;
-    width: 50%;
+    width: 80%;
+    height: 50px;
+    
 } 
 
 nav {
