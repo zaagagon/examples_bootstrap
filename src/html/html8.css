@@ -16,3 +16,11 @@ nav {
     height: 40px;
     background: cornsilk;
 }
+
+article {
+    margin: auto;
+    margin-top: 20px;
+    width: 50%;
+    height: 150px;
+    background: cadetblue;
+}
