@@ -22,6 +22,14 @@ article {
     margin-top: 20px;
     margin-left: 45px;
     width: 50%;
-    height: 50px;
+    height: 100px;
     background: cadetblue;
+}
+
+footer {
+    margin: auto;
+    margin-top: 20px;
+    width: 50%;
+    height: 25px;
+    background: darkorchid;
 }
