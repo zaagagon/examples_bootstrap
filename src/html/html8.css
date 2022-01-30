@@ -26,6 +26,15 @@ article {
     background: cadetblue;
 }
 
+section {
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 50%;
+    height: 40px;
+    background: darksalmon;
+}
+
 footer {
     margin: auto;
     margin-top: 20px;
