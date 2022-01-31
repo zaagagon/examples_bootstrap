@@ -3,8 +3,16 @@ body {
     background: blanchedalmond;
 }
 header {
+    margin: auto;
     background: cadetblue;
     border-radius: 15px;
-    width: 90%;
+    width: 80%;
     height: 30px;
+}
+
+nav {
+    margin: auto;
+    width: 80%;
+    height: 30px;
+    background: brown;
 }
