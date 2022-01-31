@@ -18,6 +18,7 @@ nav {
 }
 
 article {
+    display: inline-block;
     margin: auto;
     margin-bottom: 20px;
     margin-left: 45px;
