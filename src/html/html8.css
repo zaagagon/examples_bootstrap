@@ -5,15 +5,14 @@ body {
 
 header {
     margin: auto;
-    width: 50%;
+    width: 90%;
     height: 40px;
     background: burlywood;
 }
 
 nav {
     margin: auto;
-   
-    width: 50%;
+    width: 90%;
     height: 40px;
     background: cornsilk;
 }
@@ -24,7 +23,7 @@ article {
     
     margin-right: 18px;
     margin-bottom: 20px;
-    width: 58%;
+    width: 50%;
     height: 200px;
     background: cadetblue;
 
