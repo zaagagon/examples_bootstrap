@@ -38,12 +38,12 @@ article {
 }
 
 section {
+    display: inline-block;
     margin: auto;
- 
-
-    width: 97%;
-    height: 150px;
-    background: darksalmon;
+    margin-bottom: 20px;
+    width: 90%;
+    height: 200px;
+    background: #81F781;
 
     /* margin-top: 25px;
     margin:auto;
