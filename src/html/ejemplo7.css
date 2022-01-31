@@ -1,0 +1,10 @@
+body {
+    text-align: center;
+    background: blanchedalmond;
+}
+header {
+    background: cadetblue;
+    border-radius: 15px;
+    width: 90%;
+    height: 30px;
+}
