@@ -20,8 +20,9 @@ nav {
 article {
     display: inline-block;
     margin: auto;
-    margin-bottom: 20px;
+    
     margin-right: 18px;
+    margin-bottom: 20px;
     width: 58%;
     height: 200px;
     background: cadetblue;
@@ -37,11 +38,17 @@ article {
 
 section {
     margin: auto;
-    margin-top: 20px;
-    margin-bottom: 10px;
-    width: 50%;
-    height: 40px;
+ 
+
+    width: 97%;
+    height: 150px;
     background: darksalmon;
+
+    /* margin-top: 25px;
+    margin:auto;
+    width: 97%;
+    height: 150px;
+    background: #FA8258;*/
 }
 
 footer {
