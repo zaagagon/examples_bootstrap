@@ -4,7 +4,11 @@ body{
  }
 /*usamos . con la clase y # con id*/
  .titulo {
+     margin: auto;
      color: white;
+     background: bisque;
+     height: 90%;
+     width: 90%px;
  }
   
  header{
