@@ -5,10 +5,11 @@ body{
 /*usamos . con la clase y # con id*/
  .titulo {
      margin: auto;
-     color: white;
+     color: rgb(16, 51, 163);
      background: bisque;
-     height: 90%;
-     width: 90%px;
+     border-radius: 15%;
+     width: 80%;
+     height: 50px;
  }
   
  header{
