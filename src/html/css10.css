@@ -1,0 +1,29 @@
+#cajaformulario{
+    float: left;
+    padding: 20px;
+    border: 1px solid #999999;
+   }
+   #cajadatos{
+    float: left;
+    width: 400px;
+    margin-left: 20px;
+    padding: 20px;
+    border: 1px solid #999999;
+   }
+   #clave, #texto{
+    width: 200px;
+   }
+   #cajadatos > div{
+    padding: 5px;
+    border-bottom: 1px solid #999999;
+   }
+
+   #cabecera {
+
+color: blue;
+text-align: center;
+font-size: 25px;
+background-color: lightblue;
+border: 2px solid #999999;
+border-radius: 15px;
+   }
