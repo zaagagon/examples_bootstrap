@@ -2,6 +2,10 @@ body{
     text-align: center;
     background: #000000;
  }
+
+ .titulo {
+     color: white;
+ }
   
  header{
     margin: auto;
